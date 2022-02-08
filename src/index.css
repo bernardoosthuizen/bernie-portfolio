@@ -1,13 +1,221 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #cae7f7;
+    font-family: 'Courier Prime';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons-container {
+    width: fit-content;
+    height: 80vh;
+    margin: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.icon {
+    margin-top: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon img {
+    width: 60px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.icon-text h4 {
+    font-family: 'Courier Prime', monospace;
+    color: white;
+    font-size: 16px;
+    background-color: black;
+    margin: 0px auto;
+    padding: 4px;
+}
+
+.text-link {
+    text-decoration: none;
+}
+
+input {
+    background-color: black;
+    border-style: none;
+    font-family: inherit;
+    font-size: 18px;
+    color: white;
+    caret-color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.menu-item:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1100px) {
+    .terminal-window {
+    margin-top: 4vh;
+    height: 85vh;
+    width: 80vw;
+    border-style: outset;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    }
+
+    .window-top-bar {
+        background-color: #2d2b2b;
+        width: 100%;
+        height: 25px;
+        display: flex;
+        cursor: move;
+    }
+
+    .window-exit-button {
+        width: 25px;
+        border-right-style: ridge;
+        border-width: 1px;
+        border-color: rgb(159, 159, 159);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        cursor: pointer;
+    }
+
+    .window-exit-button img {
+        height: 15px;
+    }
+
+    .window-top {
+        background-color: black;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        cursor: not-allowed;
+    }
+
+    .window-top img {
+        margin-top: 3vh;
+        max-width: 60vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .window-top h3 {
+        color: white;
+        font-size: 30px;
+    }
+
+    .terminal-content {
+        color: white;
+        margin: 20px 70px 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .terminal-content h4 {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    li {
+        color: white;
+        font-size: 25px;
+        list-style-type: "> ";
+        margin-left: 50px;
+        margin-bottom: 10px;
+        
+    }
+
+    
+
+    .terminal-content h3 {
+        font-size: 28px;
+        background-color: white;
+        color: black;
+        padding: 10px;
+    }
+
+    .about-paragraph {
+        font-size: 22px;
+        max-width: 40vw;
+        line-height: 1.2;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .contact-card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 5%;
+    }
+
+    .contact-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        margin: 35px;
+    }
+    
+    .social-card {
+        font-size: 20px;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        margin: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .social-card a:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        padding: 5px;
+    }
+
+    .contact-card a:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        padding: 5px;
+    }
+}
+
+
+
+@font-face {
+    font-family: 'Courier Prime';
+    src: url(./fonts/CourierPrime-Regular.ttf);
 }

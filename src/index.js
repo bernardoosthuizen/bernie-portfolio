@@ -1,12 +1,37 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
+
+//CSS import
+import './index.css';
+
+// PAGES import
+import Desktop from './routes/Desktop';
+import Window from './routes/Window';
+import StartTerminal from './routes/StartTerminal';
+import Menu from './routes/Menu';
+import About from './routes/About';
+import Projects from './routes/Projects';
+import Contact from './routes/Contact';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Desktop />}> 
+          <Route path="/" element={<Window />} >
+            <Route path="/" element={<StartTerminal />} />
+              <Route path="menu" element={<Menu />} />
+              <Route path="about" element={<About />} />
+              <Route path="projects" element={<Projects />} />
+              <Route path="contact" element={<Contact />} />
+          </Route>
+        </Route>
+        <Route path="explore" element={<Desktop />} />
+      </Routes>
+    </Router> 
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,497 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="128" width="1530" viewBox="0 0 1530 128" class="diagram" text-anchor="middle" font-family="monospace" font-size="13px" fill="white">
+<rect class="gray" x="1508" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1508" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1508" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1508" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1508" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1500" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1500" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1500" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1500" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1500" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1492" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1484" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1484" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1476" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1476" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1468" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1468" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1460" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1460" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1452" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1452" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1452" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1452" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1452" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1444" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1444" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1444" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1444" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1444" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1396" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1396" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1388" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1388" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1380" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1380" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1380" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1372" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1372" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1372" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1364" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1364" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1364" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1356" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1356" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1356" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1356" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1356" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1348" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1348" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1348" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1348" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1348" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1300" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1300" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1292" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1292" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1292" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1284" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1284" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1284" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1284" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1276" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1276" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1276" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1276" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1276" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1268" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1268" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1268" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1268" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1260" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1260" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1260" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1252" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1252" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1204" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1204" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1204" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1204" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1204" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1196" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1196" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1196" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1196" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1196" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1148" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1148" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1148" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1148" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1140" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1140" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1140" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1140" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1140" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1132" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1124" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1116" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1108" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1100" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1100" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1100" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1100" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1100" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1092" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1092" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1092" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1092" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1044" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1044" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1044" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1044" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1044" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1036" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1036" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1036" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1036" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1036" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="1028" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1020" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1012" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1004" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="1004" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="1004" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="1004" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="1004" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="996" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="996" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="996" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="996" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="996" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="948" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="940" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="932" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="924" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="924" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="924" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="924" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="924" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="916" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="916" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="916" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="916" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="916" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="908" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="900" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="892" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="844" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="844" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="844" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="844" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="836" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="836" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="836" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="836" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="828" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="828" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="828" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="820" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="820" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="820" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="812" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="812" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="812" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="804" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="804" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="804" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="804" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="796" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="796" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="796" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="796" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="748" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="748" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="748" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="740" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="740" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="740" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="740" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="740" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="732" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="732" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="724" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="724" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="716" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="716" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="708" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="708" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="700" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="700" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="700" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="700" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="700" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="692" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="692" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="692" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="644" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="644" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="644" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="636" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="636" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="636" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="636" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="636" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="628" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="628" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="620" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="620" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="612" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="612" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="604" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="604" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="596" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="596" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="596" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="596" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="596" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="588" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="588" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="588" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="508" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="508" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="500" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="500" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="492" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="492" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="492" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="484" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="484" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="484" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="476" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="476" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="476" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="468" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="468" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="468" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="468" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="468" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="460" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="460" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="460" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="460" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="460" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="412" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="412" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="412" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="412" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="412" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="404" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="404" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="404" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="404" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="404" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="356" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="356" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="356" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="356" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="356" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="348" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="348" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="348" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="348" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="348" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="340" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="332" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="332" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="324" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="324" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="316" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="316" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="308" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="308" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="300" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="300" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="300" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="300" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="300" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="292" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="292" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="292" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="292" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="292" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="244" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="244" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="244" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="236" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="236" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="236" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="236" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="236" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="228" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="228" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="220" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="220" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="212" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="212" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="204" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="204" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="204" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="204" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="204" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="196" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="196" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="196" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="196" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="196" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="148" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="148" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="140" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="140" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="132" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="132" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="132" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="124" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="124" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="124" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="116" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="116" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="116" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="108" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="108" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="108" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="108" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="108" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="100" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="100" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="100" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="100" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="100" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="52" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="52" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="44" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="44" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="44" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="44" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="44" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="36" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="36" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="36" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="28" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="28" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="28" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="20" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="20" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="20" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="12" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="12" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="12" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="12" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="12" y="8" width="8" height="16" fill="white"/>
+<rect class="gray" x="4" y="72" width="8" height="16" fill="white"/>
+<rect class="gray" x="4" y="56" width="8" height="16" fill="white"/>
+<rect class="gray" x="4" y="40" width="8" height="16" fill="white"/>
+<rect class="gray" x="4" y="24" width="8" height="16" fill="white"/>
+<rect class="gray" x="4" y="8" width="8" height="16" fill="white"/>
+<g class="text">
+<text x="56" y="20">╗</text>
+<text x="160" y="20">╗</text>
+<text x="248" y="20">╗</text>
+<text x="320" y="20">╗</text>
+<text x="368" y="20">╗</text>
+<text x="424" y="20">╗</text>
+<text x="520" y="20">╗</text>
+<text x="648" y="20">╗</text>
+<text x="752" y="20">╗</text>
+<text x="856" y="20">╗</text>
+<text x="960" y="20">╗</text>
+<text x="1016" y="20">╗</text>
+<text x="1056" y="20">╗</text>
+<text x="1112" y="20">╗</text>
+<text x="1160" y="20">╗</text>
+<text x="1216" y="20">╗</text>
+<text x="1312" y="20">╗</text>
+<text x="1408" y="20">╗</text>
+<text x="1472" y="20">╗</text>
+<text x="1520" y="20">╗</text>
+<text x="32" y="36">╔══</text>
+<text x="64" y="36">╗</text>
+<text x="140" y="36">╔════╝</text>
+<text x="224" y="36">╔══</text>
+<text x="256" y="36">╗</text>
+<text x="328" y="36">╗</text>
+<text x="368" y="36">║</text>
+<text x="424" y="36">║</text>
+<text x="500" y="36">╔════╝</text>
+<text x="620" y="36">╔═══</text>
+<text x="656" y="36">╗</text>
+<text x="724" y="36">╔═══</text>
+<text x="760" y="36">╗</text>
+<text x="836" y="36">╔════╝</text>
+<text x="904" y="36">╚══</text>
+<text x="948" y="36">╔══╝</text>
+<text x="1016" y="36">║</text>
+<text x="1056" y="36">║</text>
+<text x="1112" y="36">║</text>
+<text x="1160" y="36">║</text>
+<text x="1216" y="36">║</text>
+<text x="1264" y="36">╚══</text>
+<text x="1308" y="36">╔╝</text>
+<text x="1388" y="36">╔════╝</text>
+<text x="1480" y="36">╗</text>
+<text x="1520" y="36">║</text>
+<text x="60" y="52">╔╝</text>
+<text x="144" y="52">╗</text>
+<text x="252" y="52">╔╝</text>
+<text x="312" y="52">╔</text>
+<text x="336" y="52">╗</text>
+<text x="368" y="52">║</text>
+<text x="424" y="52">║</text>
+<text x="504" y="52">╗</text>
+<text x="608" y="52">║</text>
+<text x="656" y="52">║</text>
+<text x="712" y="52">║</text>
+<text x="760" y="52">║</text>
+<text x="856" y="52">╗</text>
+<text x="936" y="52">║</text>
+<text x="1056" y="52">║</text>
+<text x="1112" y="52">║</text>
+<text x="1160" y="52">║</text>
+<text x="1216" y="52">║</text>
+<text x="1300" y="52">╔╝</text>
+<text x="1392" y="52">╗</text>
+<text x="1464" y="52">╔</text>
+<text x="1488" y="52">╗</text>
+<text x="1520" y="52">║</text>
+<text x="32" y="68">╔══</text>
+<text x="64" y="68">╗</text>
+<text x="132" y="68">╔══╝</text>
+<text x="224" y="68">╔══</text>
+<text x="256" y="68">╗</text>
+<text x="316" y="68">║╚</text>
+<text x="344" y="68">╗</text>
+<text x="368" y="68">║</text>
+<text x="424" y="68">║</text>
+<text x="492" y="68">╔══╝</text>
+<text x="608" y="68">║</text>
+<text x="656" y="68">║</text>
+<text x="712" y="68">║</text>
+<text x="760" y="68">║</text>
+<text x="816" y="68">╚════</text>
+<text x="856" y="68">║</text>
+<text x="936" y="68">║</text>
+<text x="1024" y="68">╔══</text>
+<text x="1056" y="68">║</text>
+<text x="1112" y="68">║</text>
+<text x="1160" y="68">║</text>
+<text x="1216" y="68">║</text>
+<text x="1292" y="68">╔╝</text>
+<text x="1380" y="68">╔══╝</text>
+<text x="1468" y="68">║╚</text>
+<text x="1496" y="68">╗</text>
+<text x="1520" y="68">║</text>
+<text x="60" y="84">╔╝</text>
+<text x="160" y="84">╗</text>
+<text x="216" y="84">║</text>
+<text x="256" y="84">║</text>
+<text x="320" y="84">║ ╚</text>
+<text x="368" y="84">║</text>
+<text x="424" y="84">║</text>
+<text x="520" y="84">╗</text>
+<text x="592" y="84">╚</text>
+<text x="652" y="84">╔╝</text>
+<text x="696" y="84">╚</text>
+<text x="756" y="84">╔╝</text>
+<text x="856" y="84">║</text>
+<text x="936" y="84">║</text>
+<text x="1016" y="84">║</text>
+<text x="1056" y="84">║</text>
+<text x="1096" y="84">╚</text>
+<text x="1156" y="84">╔╝</text>
+<text x="1216" y="84">║</text>
+<text x="1312" y="84">╗</text>
+<text x="1408" y="84">╗</text>
+<text x="1472" y="84">║ ╚</text>
+<text x="1520" y="84">║</text>
+<text x="32" y="100">╚═════╝</text>
+<text x="132" y="100">╚══════╝</text>
+<text x="208" y="100">╚═╝</text>
+<text x="248" y="100">╚═╝</text>
+<text x="304" y="100">╚═╝</text>
+<text x="352" y="100">╚═══╝</text>
+<text x="416" y="100">╚═╝</text>
+<text x="492" y="100">╚══════╝</text>
+<text x="624" y="100">╚═════╝</text>
+<text x="728" y="100">╚═════╝</text>
+<text x="828" y="100">╚══════╝</text>
+<text x="928" y="100">╚═╝</text>
+<text x="1008" y="100">╚═╝</text>
+<text x="1048" y="100">╚═╝</text>
+<text x="1128" y="100">╚═════╝</text>
+<text x="1208" y="100">╚═╝</text>
+<text x="1284" y="100">╚══════╝</text>
+<text x="1380" y="100">╚══════╝</text>
+<text x="1456" y="100">╚═╝</text>
+<text x="1504" y="100">╚═══╝</text>
+</g>
+</svg>
