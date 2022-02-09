@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const About = () => {
     return (
         <article className="terminal-content">
-            <h3>ABOUTkewgewhjkgd ~ </h3>
-            <div className="about-paragraph">
+            <h3>ABOUT ~ </h3>
+            <div className="about-paragraph" style={{overflow: 'scroll'}}>
                 <p>
                 Hi!
                 </p>

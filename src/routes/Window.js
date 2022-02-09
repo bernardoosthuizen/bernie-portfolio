@@ -27,7 +27,8 @@ const Window = () =>
                                    <h3>Software & Blockchain Developer</h3>
                             </div>
                      </div>
-                     <Outlet />                     
+                            <Outlet />  
+                                        
               </div>
                 
        </Draggable>

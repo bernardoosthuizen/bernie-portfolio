@@ -133,6 +133,7 @@ a {
     .terminal-content {
         color: white;
         margin: 20px 70px 30px;
+        overflow-y: scroll;
         display: flex;
         flex-direction: column;
     }
@@ -165,8 +166,9 @@ a {
 
     .about-paragraph {
         font-size: 22px;
-        max-width: 40vw;
+        max-width: 35vw;
         line-height: 1.2;
+        padding: 20px;
         display: flex;
         flex-direction: column;
         
@@ -197,6 +199,14 @@ a {
         align-items: center;
         justify-content: space-evenly;
     }
+    .social-card a {
+        background-color: black;
+        padding: 5px;
+    }
+    .contact-card a {
+        background-color: black;
+        padding: 5px;
+    }
 
     .social-card a:hover {
         background-color: white;
@@ -210,6 +220,18 @@ a {
         color: black;
         cursor: pointer;
         padding: 5px;
+    }
+
+    .featured-projects-container {
+        display: flex;
+        
+    }
+
+    .featured-projects-item {
+        background-color: rgb(45, 45, 45);
+        height: 80px;
+        width: 40vw;
+        margin: 20px;
     }
 }
 

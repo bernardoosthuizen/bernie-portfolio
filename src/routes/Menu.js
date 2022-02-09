@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Menu = () => {
    return (
-    <div className="terminal-content">
+    <div className="terminal-content" style={{overflow: 'scroll'}}>
         <h4>>  Please select a page:</h4>
         <ul>
             <li >
