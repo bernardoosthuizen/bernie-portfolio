@@ -75,7 +75,8 @@ a {
 @media screen and (min-width: 1025px) {
     .terminal-window {
     margin-top: 1%;
-    height: 95vh;
+    height: fit-content;
+    min-height: 85vh;
     width: 85vw;
     max-width: 1800px;
     border-style: outset;
