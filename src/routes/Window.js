@@ -24,7 +24,7 @@ const Window = () =>
                                   <img src={Banner} alt="ASCII Bernie Oosthuizen banner" /> 
                             </div>
                             <div> 
-                                   <h3>Software & Blockchain Developer</h3>
+                                   <h3>Software & Blockchain Engineer</h3>
                             </div>
                      </div>
                             <Outlet />  
