@@ -20,10 +20,12 @@ import ComponentLoader from './routes/ComponentLoader';
 const Contact = lazy(() => import('./routes/Contact'));
 const Projects = lazy(() => import('./routes/Projects'));
 const About = lazy(() => import('./routes/About'));
+const ProjectDetails = lazy(() => import('./routes/ProjectDetails'));
+const NotFound = lazy (() => import('./routes/NotFound'));
 
 
 ReactDOM.render(
-        <Media query="(max-width: 1024px)">
+        <Media query="(max-width: 1124px)">
           {matches => matches ? (
             // TABLET & MOBILE
             <Suspense fallback={<PageLoader />}>
@@ -34,6 +36,7 @@ ReactDOM.render(
                   <Route path="loader" element={<ComponentLoader />} />
                   <Route path="about" element={<About />} />
                   <Route path="projects" element={<Projects />} />
+                  <Route path="projectdetails/:id" element={<ProjectDetails />}/>
                   <Route path="contact" element={<Contact />} />
                 </Route>
                 <Route path="explore" element={<Desktop />} />
@@ -52,8 +55,10 @@ ReactDOM.render(
                         <Route path="loader" element={<ComponentLoader />} />
                         <Route path="menu" element={<Menu />} />
                         <Route path="about" element={<About />} />
-                        <Route path="projects" element={<Projects />} />
+                        <Route path="projects/" element={<Projects />} />
+                        <Route path="projectdetails/:id" element={<ProjectDetails />}/>
                         <Route path="contact" element={<Contact />} />
+                        <Route path="404" element={<NotFound />} />
                       </Route>
                     </Route>
                     <Route path="explore" element={<Desktop />} />

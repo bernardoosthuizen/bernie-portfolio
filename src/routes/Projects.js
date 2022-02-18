@@ -1,59 +1,49 @@
-import { React, useState, useEffect } from "react";
-import Headshot from "../assets/headshot.png";
-import { db } from "../firebase-config";
-import { collection, getDocs } from "firebase/firestore";
-import ComponentLoader from './ComponentLoader';
+import React, { useState, Suspense } from 'react';
+import ComponentLoader from "./ComponentLoader";
+import { Link } from "react-router-dom";
+import projectList from "../projects.json";
 
 
-const Projects = () => {
-    const [projects, setProjects] = useState([]);
-    const projectsCollectionRef = collection(db, "projects")
-
-    const [loaded, setLoaded] = useState(false);
-
-    useEffect( () => {
-        const getProjects = async () => {
-            const data = await getDocs(projectsCollectionRef);
-            setProjects(data.docs.map((doc) => ({...doc.data(), id: doc.id})));
-            setLoaded(true);
-        }
-
-        getProjects()
-    },[])
-
-
+const Projects = (props) => {
+    const [loaded, setLoaded] = useState(false)
+    console.log(props)
     return (
         <article className="terminal-content">
             <h3>PROJECTS ~ </h3>
-            {loaded ? (
-                <div className="all-projects-container" style={{overflow: 'scroll'}}>
-                    
-                    {projects.map((projects) => {
-                        return (
-                        <div className="projects-item" key={projects.id}>
-                            <div className="project-img">
-                                <img src={Headshot} alt="Pixel art of Bernie's headshot" />
-                            </div>
-                            <div className="project-description">
-                                <h4 >{projects.name}</h4>
-                            </div>
-                            <div className="tag-wrapper">
-                                { projects.tags.map((tags, index) => {
-                                    return (
-                                        <h5 key={index}>{tags}</h5>
-                                    );
-                                })}      
-                            </div>
-                        </div> 
-                        );
-                    })} 
+            <Suspense fallback={<ComponentLoader />}>
+            <div className={loaded ? 'hideLoader' : 'visible'}>
+                    <ComponentLoader />
                 </div>
-            ) : (
-                <ComponentLoader />
-            )}
-            
+                <div className="all-projects-container" style={{overflow: 'scroll'}}>
+                    {projectList.map((project, i) => {  
+                        const projectLink = "/projectdetails/" + project.id;
+                        return (
+                            <Link to={projectLink} >
+                                <div className={loaded ? 'projects-item visible' : 'hidden'} key={project.id}>
+                                    <div className="project-img">
+                                        <img src={project.img} alt={project.alt} onLoad={()=> setLoaded(true)}/>
+                                    </div>
+                                    <div className="project-description">
+                                        <h4 >{project.title}</h4>
+                                        <p> Built with: </p>
+                                    </div>
+                                    <div className="tag-wrapper">
+                                        { project.tags.map((tag, i) => {
+                                            return (
+                                                <h5 key={i} > { tag } </h5>
+                                            );
+                                        })}   
+                                    </div>
+                                </div> 
+                            </Link>
+                            
+
+                        );
+                    })}
+                </div>
+            </Suspense>
         </article>
-    )
+    )  
 }
 
 export default Projects

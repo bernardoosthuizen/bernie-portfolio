@@ -8,7 +8,7 @@ import { Link, Outlet } from "react-router-dom";
 
 
 const Window = () =>
-
+<div className="window-container">
        <Draggable
         handle=".handle"
         cancel=".no-handle"
@@ -32,5 +32,7 @@ const Window = () =>
               </div>
                 
        </Draggable>
+</div>
+       
             
 export default Window;
