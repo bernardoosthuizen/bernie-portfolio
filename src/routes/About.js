@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
+import ComponentLoader from "./ComponentLoader";
 import Headshot from "../assets/headshot.png"
 
 const About = () => {
+    const [loaded, setLoaded] = useState(false)
     return (
         <article className="terminal-content">
             <h3>ABOUT ME ~ </h3>
-            <div className="about-container" style={{overflow: 'hidden'}}>
+            <div className={loaded ? 'hideLoader' : 'visible'}>
+                <ComponentLoader />
+            </div>
+            <div className={loaded ? 'about-container visible' : 'hidden'} style={{overflow: 'hidden'}}>
                 <div className="about-paragraph" style={{overflow: 'auto'}}>
                     <p>
                     Hi!
@@ -28,7 +33,7 @@ const About = () => {
                     </p>
                 </div>
                 <div className="headshot no-mobile">
-                    <img src={ Headshot } alt="Pixel art headshot of Bernie" />
+                    <img src={ Headshot } alt="Pixel art headshot of Bernie" onLoad={()=> setLoaded(true)} />
                 </div>
             </div>
             

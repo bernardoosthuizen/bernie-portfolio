@@ -6,19 +6,19 @@ import projectList from "../projects.json";
 
 const Projects = (props) => {
     const [loaded, setLoaded] = useState(false)
-    console.log(props)
+
     return (
         <article className="terminal-content">
             <h3>PROJECTS ~ </h3>
             <Suspense fallback={<ComponentLoader />}>
-            <div className={loaded ? 'hideLoader' : 'visible'}>
+                <div className={loaded ? 'hideLoader' : 'visible'}>
                     <ComponentLoader />
                 </div>
                 <div className="all-projects-container" style={{overflow: 'scroll'}}>
                     {projectList.map((project, i) => {  
                         const projectLink = "/projectdetails/" + project.id;
                         return (
-                            <Link to={projectLink} >
+                            <Link to={projectLink} key={project.id}>
                                 <div className={loaded ? 'projects-item visible' : 'hidden'} key={project.id}>
                                     <div className="project-img">
                                         <img src={project.img} alt={project.alt} onLoad={()=> setLoaded(true)}/>
@@ -43,6 +43,7 @@ const Projects = (props) => {
                 </div>
             </Suspense>
         </article>
+        
     )  
 }
 
