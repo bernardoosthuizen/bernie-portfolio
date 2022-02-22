@@ -32,8 +32,8 @@ const ProjectDetails = () => {
                  <ComponentLoader />
             </div>
             <div className={loaded ? 'project-detail visible' : 'hidden'} >
-                    <div className="project-detail-container" >
-                        <div className="project-header" style={{overflow: 'auto'}}>
+                    <div className="project-detail-container" style={{overflow: 'auto'}}>
+                        <div className="project-header" >
                             <a href={fetchedProject.link} target="_blank" rel="noreferrer">
                                 <h4>{fetchedProject.title}</h4>
                             </a> 

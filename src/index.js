@@ -28,8 +28,8 @@ ReactDOM.render(
         <Media query="(max-width: 1124px)">
           {matches => matches ? (
             // TABLET & MOBILE
-            <Suspense fallback={<PageLoader />}>
             <Router>
+              <Suspense fallback={PageLoader} >
               <Routes>
                 <Route path="/" element={<Window />} >
                   <Route path="/" element={<MobileStart />} />
@@ -42,12 +42,12 @@ ReactDOM.render(
                 <Route path="explore" element={<Desktop />} />
                 <Route path="loader2" element={<PageLoader />} />
               </Routes>
+              </ Suspense>
             </Router> 
-            </Suspense>
             ) : (
               // DESKTOP
-              <Suspense fallback={<PageLoader />}>
                 <Router>
+                  <Suspense fallback={PageLoader} >
                   <Routes>
                     <Route path="/" element={<Desktop />}> 
                       <Route path="/" element={<Window />} >
@@ -64,8 +64,8 @@ ReactDOM.render(
                     <Route path="explore" element={<Desktop />} />
                     <Route path="loader2" element={<PageLoader />} />
                   </Routes>
-                </Router> 
-              </Suspense>
+                  </ Suspense>
+                </Router>
             )
           }
         </Media>,
