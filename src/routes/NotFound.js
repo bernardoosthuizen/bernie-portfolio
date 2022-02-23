@@ -5,7 +5,7 @@ const NotFound = () => {
         <article className="terminal-content">
             <h3>NOT FOUND ~ </h3>
             <div className="about-container" style={{overflow: 'hidden'}}>
-                <div className="about-paragraph" style={{overflow: 'auto'}}>
+                <div className="404" style={{overflow: 'auto'}}>
                     <p>
                     NOT FOUND
                     </p>

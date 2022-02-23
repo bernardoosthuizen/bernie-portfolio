@@ -1,7 +1,9 @@
 /* DESKTOP COMPONENT. 
-Arranges and sorts the desktop icons. */
+Arranges and sorts the desktop icons. 
+Always visible when viewed on Desktop.
+Only visible on mobile and tablet on /explore route */
 
-import React, { useState }from "react";
+import React from "react";
 import { Outlet, Link } from "react-router-dom";
 
 
@@ -48,7 +50,8 @@ function Desktop() {
         <div className="main-container">
            {/* Icons */}
             <menu className="icons-container">
-                {desktopIcons.map((desktopIcon) => {
+                {/* Maps over DesktopIcon array and passes each icon's name:value pairs to <Icon> component through props => resultin in a rendered icon */}
+                {desktopIcons.map((desktopIcon) => {             
                     return <Icon  key={desktopIcon.id} {...desktopIcon} /> 
                 })}
             </menu> 
@@ -59,6 +62,7 @@ function Desktop() {
 }
 
 const Icon = (props) => {
+    //Receives a single icon's name:value pairs as props and renders it as an icon
     const {imgSrc, imgAltText, iconText, link} = props;
         return (
             <Link to={ link } className="icon text-link" >

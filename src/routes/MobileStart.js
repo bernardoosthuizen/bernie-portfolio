@@ -1,5 +1,12 @@
+/* MOBILE START COMPONENT. 
+Render a start component for mobile devises on root / url.
+Only visible on Mobile. 
+It is rendered into the <Outlet> of the WINDOW COMPONENT */
+
 import React from "react";
 import { Link } from "react-router-dom";
+
+// Image imports
 import Headshot from "../assets/headshot.png"
 
 const MobileStart = () => {
@@ -22,9 +29,7 @@ const MobileStart = () => {
                     </li>
                 </ul>
                 </menu>
-                
             </div>
-            
         </article>
     );
 }

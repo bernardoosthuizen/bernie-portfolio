@@ -1,17 +1,24 @@
+/* PROJECT DETAILS COMPONENT. 
+Renders component with details of a project selected from PROJECT COMPONENT.
+It is rendered into the <Outlet> of the WINDOW COMPONENT */
+
 import React, { useState }from "react";
 import { Navigate, useParams } from "react-router-dom";
 import ComponentLoader from "./ComponentLoader";
 import projectList from "../projects.json";
 
 const ProjectDetails = () => {
-    const [loaded, setLoaded] = useState(false)
+    // State to track when images are loaded for a better UX.
+    const [loaded, setLoaded] = useState(false);
+    // URL params used to fetch project ID.
     const {id} = useParams();
-    const  validId = parseInt(id)
-
+    // Checks if ID is valid.
+    const  validId = parseInt(id);
     if (!validId) {
         return <Navigate to="/404" />
     }
     
+    // Fetches details of project from projects.json. 
     let fetchedProject = {};
     projectList.forEach((project, i) => {
         if (validId === project.id) {
@@ -27,16 +34,22 @@ const ProjectDetails = () => {
    
     return (
         <article className="terminal-content">
-            <h3>PROJECT DETAILS ~ </h3>
+            <header>
+                <h3>PROJECT DETAILS ~ </h3>
+            </header>
+            {/* only visible once images are loaded. Otherwise shows COMPONENT LOADER COMPONENT*/}
             <div className={loaded ? 'hideLoader' : 'visible'}>
                  <ComponentLoader />
             </div>
             <div className={loaded ? 'project-detail visible' : 'hidden'} >
                     <div className="project-detail-container" style={{overflow: 'auto'}}>
                         <div className="project-header" >
-                            <a href={fetchedProject.link} target="_blank" rel="noreferrer">
-                                <h4>{fetchedProject.title}</h4>
-                            </a> 
+                            <header>
+                                 <a href={fetchedProject.link} target="_blank" rel="noreferrer">
+                                    <h4>{fetchedProject.title}</h4>
+                                </a> 
+                            </header>
+                           
                             <div className="tag-wrapper">
                                 { fetchedProject.tags.map((tag, i) => {
                                     return (
@@ -55,13 +68,8 @@ const ProjectDetails = () => {
                                     <img src={fetchedProject.img} alt={fetchedProject.alt} onLoad={()=> setLoaded(true)}/>
                                 </div>
                             </a>
-                    </div>
-                    
-                    
-                
-                
+                    </div>  
             </div>
-            
         </article>
     );
 }

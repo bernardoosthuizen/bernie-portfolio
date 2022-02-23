@@ -1,10 +1,14 @@
+/* CONTACT COMPONENT. 
+Displays the /contact route. 
+It is rendered into the <Outlet> of the WINDOW COMPONENT */
+
 import React from "react";
-
-
 const Contact = () => {
     return (
         <address className="terminal-content">
-            <h3>CONTACT ~ </h3>
+            <header>
+                <h3>CONTACT ~ </h3>
+            </header>
             <div style={{overflow: 'scroll'}}>
                 <div className="contact-card">
                 <div className="contact-item">
@@ -20,9 +24,6 @@ const Contact = () => {
                     <a href="https://polywork.bernie.codes/" target="_blank" rel="noreferrer">Polywork</a>
                 </div>
             </div>
-            
-
-
         </address>
     );
 }

@@ -1,3 +1,8 @@
+/* MENU COMPONENT. 
+Rendered once a "Terminal" command in START TERMINAL COMPONENT has been accepted.
+Only visible on Desktop. 
+It is rendered into the <Outlet> of the WINDOW COMPONENT */
+
 import React from 'react';
 import { Link } from "react-router-dom";
 

@@ -1,13 +1,20 @@
+/* ABOUT COMPONENT.  
+It is rendered into the <Outlet> of the WINDOW COMPONENT */
+
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import ComponentLoader from "./ComponentLoader";
+
+// Image imports
 import Headshot from "../assets/headshot.png"
 
 const About = () => {
+    // State to track when images are loaded for a better UX.
     const [loaded, setLoaded] = useState(false)
     return (
         <article className="terminal-content">
             <h3>ABOUT ME ~ </h3>
+            {/* only visible once images are loaded. Otherwise shows COMPONENT LOADER COMPONENT*/}
             <div className={loaded ? 'hideLoader' : 'visible'}>
                 <ComponentLoader />
             </div>
@@ -36,7 +43,6 @@ const About = () => {
                     <img src={ Headshot } alt="Pixel art headshot of Bernie" onLoad={()=> setLoaded(true)} />
                 </div>
             </div>
-            
         </article>
     );
 }
