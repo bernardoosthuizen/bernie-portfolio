@@ -432,6 +432,9 @@ li {
     line-height: 1.5;   
 }
 
+.project-image-container:hover {
+    transform: scale(1.025);
+}
 
 @media screen and (max-width: 1124px) {
 

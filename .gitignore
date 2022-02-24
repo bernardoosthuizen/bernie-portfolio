@@ -3,8 +3,9 @@
 # API keys
 /.env
 /project-banner.ai
-/.firebase
-
+.firebase
+/firebase.json
+.firebaserc
 
 # dependencies
 /node_modules

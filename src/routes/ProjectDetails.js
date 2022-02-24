@@ -59,7 +59,7 @@ const ProjectDetails = () => {
                             </div> 
                             <div className="project-detail-description" >
                         <h5>Project Description</h5>
-                        <p>{fetchedProject.description}</p>
+                        <p>{fetchedProject.description} </p>
                         <a href={fetchedProject.github} style={{textDecoration: 'underline', fontSize: '14px'}}> View on Github</a>
                     </div>                          
                         </div>
