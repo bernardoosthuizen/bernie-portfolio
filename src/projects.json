@@ -1,15 +1,4 @@
 [
-    {
-        "id":2,
-        "title":"Pecker",
-        "tags":["Gatsby","Flexbox","AWS"],
-        "img": "https://firebasestorage.googleapis.com/v0/b/myportfolio-1843e.appspot.com/o/project-banner.png?alt=media&token=e63b5ae4-1d0a-448d-ab51-140c1919bbce",
-        "alt": "Pixel art of Bernie's headshot",
-        "description": "This is a website where I showcase my noteable projects. I used React.js & Flexbox on the front end. This was a great way to solidify my React.js knowledge. Not being a big fan of CSS, this project allowed me to explore and get to grips with Flexbox. I really enjoyed refining page load animations to enhance the user experience.",
-        "github": "https://github.com/bernardoosthuizen/bernie-portfolio",
-        "link": "bernie.codes"
-
-    },
      {
         "id":1,
         "title":"My Portfolio",

@@ -6,6 +6,7 @@ import React, { useState }from "react";
 import { Navigate, useParams } from "react-router-dom";
 import ComponentLoader from "./ComponentLoader";
 import projectList from "../projects.json";
+import { Helmet } from "react-helmet";
 
 const ProjectDetails = () => {
     // State to track when images are loaded for a better UX.
@@ -22,6 +23,7 @@ const ProjectDetails = () => {
     let fetchedProject = {};
     projectList.forEach((project, i) => {
         if (validId === project.id) {
+            fetchedProject.id = project.id;
             fetchedProject.title = project.title;
             fetchedProject.img = project.img;
             fetchedProject.alt = project.alt;
@@ -34,6 +36,21 @@ const ProjectDetails = () => {
    
     return (
         <article className="terminal-content">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Bernie Oosthuizen - Software Engineer | Blockchain Developer | Master of dad jokes</title>
+                <meta property="og:title" content={fetchedProject.title} />
+                <meta property="og:type" content="article" />
+                <meta property="og:url" content="http://bernie.codes/projects/" />
+                <meta property="og:image" content={fetchedProject.img} />
+                <meta property="og:description" content={fetchedProject.description} />
+                <meta property="twitter:title" content="Bernie - Software Engineer" />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta property="twitter:image" content={fetchedProject.img} />
+                <meta property="twitter:description" content={fetchedProject.description} />
+                <meta name="twitter:site" content="@berniecodes"/>
+                <link rel="canonical" href="http://bernie.codes/" />
+        </Helmet>
             <header>
                 <h3>PROJECT DETAILS ~ </h3>
             </header>
