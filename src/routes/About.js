@@ -24,10 +24,10 @@ const About = () => {
                     Hi!
                     </p>
                     <p> 
-                    Nice to meet you! I'm Bernie, a backend developer curious about all things blockchain & software. 
+                    Nice to meet you! I'm Bernie, a aspiring backend developer curious about all things software. 
                     </p>
                     <p> 
-                    I was born in South Africa, currently living in Hong Kong where I spend my days fiddling, researching & prototyping products. Currently I am working on a cryptocurrency tipping platform for creators and a traditional SaaS product for business aviation organisations.  
+                    I was born in South Africa, currently living in Hong Kong where I spend my days fiddling, researching & working on portfolio projects. Currently I am working on a bot that intereacts with the Kraken Exchange API that will automate periodic cryptocurrency investments.  
                     </p>
                     <p>
                     After a successful career in aviation I have decided to pivot my career to software engineering. I am working towards completing a Bachelor of Science in Computer Science to jump start this process. As a pilot, I am familiar with working in a high-stress, operationally critical environments, requiring teamwork and technical skills to succeed.  

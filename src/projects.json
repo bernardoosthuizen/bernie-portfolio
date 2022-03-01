@@ -1,4 +1,14 @@
 [
+    {
+    "id":2,
+    "title":"Coming Soon ...",
+    "tags":["Node.js","Express.js","API"],
+    "img": "https://firebasestorage.googleapis.com/v0/b/myportfolio-1843e.appspot.com/o/kraken-project-banner.png?alt=media&token=2218992c-8ee2-4872-915c-2885f1d63579",
+    "alt": "Kraken API auto invest banner",
+    "description": "This is a simple bot that helps you automatically and periodically buy selected cryptocurrencies on Kraken crypto exchange. I hope to gain confidence in using APIs and their documentation with Node.js and Express.js. I hope to have this project completed by the end of March 2022.",
+    "github": "https://github.com/bernardoosthuizen/kraken-auto-invest",
+    "link": "https://bernie.codes/projectdetails/2"
+    },
      {
         "id":1,
         "title":"My Portfolio",

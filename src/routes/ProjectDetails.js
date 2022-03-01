@@ -51,22 +51,22 @@ const ProjectDetails = () => {
                 <meta name="twitter:site" content="@berniecodes"/>
                 <link rel="canonical" href="http://bernie.codes/" />
         </Helmet>
-            <header>
+            
                 <h3>PROJECT DETAILS ~ </h3>
-            </header>
+            
             {/* only visible once images are loaded. Otherwise shows COMPONENT LOADER COMPONENT*/}
             <div className={loaded ? 'hideLoader' : 'visible'}>
                  <ComponentLoader />
             </div>
-            <div className={loaded ? 'project-detail visible' : 'hidden'} >
-                    <div className="project-detail-container" style={{overflow: 'auto'}}>
+            <div className={loaded ? 'project-detail visible' : 'hidden'} style={{overflow: 'auto'}}>
+                <div className="project-detail-container">
+                    <div className="project-column-1">
                         <div className="project-header" >
                             <header>
-                                 <a href={fetchedProject.link} target="_blank" rel="noreferrer">
-                                    <h4>{fetchedProject.title}</h4>
+                                <a href={fetchedProject.link} target="_blank" rel="noreferrer">
+                                <h4>{fetchedProject.title}</h4>
                                 </a> 
                             </header>
-                           
                             <div className="tag-wrapper">
                                 { fetchedProject.tags.map((tag, i) => {
                                     return (
@@ -75,17 +75,18 @@ const ProjectDetails = () => {
                                 })}   
                             </div> 
                             <div className="project-detail-description" >
-                        <h5>Project Description</h5>
-                        <p>{fetchedProject.description} </p>
-                        <a href={fetchedProject.github} style={{textDecoration: 'underline', fontSize: '14px'}}> View on Github</a>
-                    </div>                          
+                                <h5>Project Description</h5>
+                                <p>{fetchedProject.description} </p>
+                                <a href={fetchedProject.github} style={{textDecoration: 'underline', fontSize: '14px'}}> View on Github</a>
+                            </div>       
                         </div>
-                            <a href={fetchedProject.link}>
-                                <div className="project-image-container">
-                                    <img src={fetchedProject.img} alt={fetchedProject.alt} onLoad={()=> setLoaded(true)}/>
-                                </div>
-                            </a>
                     </div>  
+                    <div className="project-column-2">
+                        <div className="project-image-container">
+                            <img src={fetchedProject.img} alt={fetchedProject.alt} onLoad={()=> setLoaded(true)}/>
+                        </div> 
+                    </div> 
+                </div>  
             </div>
         </article>
     );
