@@ -128,18 +128,18 @@ a {
 }
 
 .terminal-window {
-margin-top: 1%;
-height: 95vh;
-max-height: 95vh;
-min-height: 85vh;
-width: 80vw;
-max-width: 1800px;
-border-style: outset;
-background-color: black;
-display: flex;
-flex-direction: column;
-z-index: 2;
-transition: all .2s ease-in-out;
+    margin-top: 1%;
+    height: 95vh;
+    max-height: 95vh;
+    min-height: 85vh;
+    width: 80vw;
+    max-width: 1800px;
+    border-style: outset;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    transition: all .2s ease-in-out;
 }
 
 .window-top-bar {
@@ -436,9 +436,6 @@ li {
     line-height: 1.5;   
 }
 
-.project-image-container:hover {
-    transform: scale(1.025);
-}
 
 @media screen and (max-width: 1124px) {
 
