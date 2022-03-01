@@ -16,6 +16,7 @@ import Menu from './routes/Menu';
 import MobileStart from './routes/MobileStart';
 import ComponentLoader from './routes/ComponentLoader';
 
+
 // Dynamic import
 const Contact = lazy(() => import('./routes/Contact'));
 const Projects = lazy(() => import('./routes/Projects'));

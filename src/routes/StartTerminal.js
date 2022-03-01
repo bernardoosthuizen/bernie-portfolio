@@ -22,8 +22,8 @@ const StartTerminal = () => {
         else {
             console.log('false')
         } 
-    };
-        
+    }
+   
     return (
     <div className="terminal-content">
         <Helmet>
@@ -44,7 +44,7 @@ const StartTerminal = () => {
         <h4>>  Welcome to my homepage. Type "init" and hit enter to start.</h4>
         <form className="form" onSubmit={HandleSubmit}> 
          <div>
-             <label >> </label>
+             <label >&gt; </label>
              {/* input field that accepts commands typed by user */}
              <input 
                 type="text" 

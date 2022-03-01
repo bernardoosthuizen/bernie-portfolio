@@ -50,10 +50,8 @@ const ProjectDetails = () => {
                 <meta property="twitter:description" content={fetchedProject.description} />
                 <meta name="twitter:site" content="@berniecodes"/>
                 <link rel="canonical" href="http://bernie.codes/" />
-        </Helmet>
-            
-                <h3>PROJECT DETAILS ~ </h3>
-            
+            </Helmet>
+            <h3>PROJECT DETAILS ~ </h3>
             {/* only visible once images are loaded. Otherwise shows COMPONENT LOADER COMPONENT*/}
             <div className={loaded ? 'hideLoader' : 'visible'}>
                  <ComponentLoader />
@@ -64,7 +62,7 @@ const ProjectDetails = () => {
                         <div className="project-header" >
                             <header>
                                 <a href={fetchedProject.link} target="_blank" rel="noreferrer">
-                                <h4>{fetchedProject.title}</h4>
+                                    <h4>{fetchedProject.title}</h4>
                                 </a> 
                             </header>
                             <div className="tag-wrapper">

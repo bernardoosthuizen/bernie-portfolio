@@ -20,7 +20,7 @@ const Window = () => {
               cancel=".no-handle"
               >
                      <header>
-                           <div className="terminal-window">
+                     <div className="terminal-window">
                             <div className="window-top-bar handle">
                             <Link to="/explore" className="window-exit-button no-handle">
                                           <img src={CloseButton} alt="Close button" /> 
@@ -28,7 +28,7 @@ const Window = () => {
                             </div>
                             <div className="window-top">
                                    <div>
-                                   <img src={Banner} alt="ASCII Bernie Oosthuizen banner" /> 
+                                          <img src={Banner} alt="ASCII Bernie Oosthuizen banner" /> 
                                    </div>
                                    <div> 
                                           <h3>Computer Science Student</h3>
@@ -42,7 +42,5 @@ const Window = () => {
        </div>
        )
 }
-
-       
-            
+    
 export default Window;
