@@ -38,7 +38,7 @@ ReactDOM.render(
                   <Route path="projects" element={<Projects />} />
                   <Route path="projectdetails/:id" element={<ProjectDetails />}/>
                   <Route path="contact" element={<Contact />} />
-                  <Route path="404" element={<NotFound />} />
+                  <Route path="*" element={<NotFound />} />
                 </Route>
                 <Route path="explore" element={<Desktop />} />
               </Routes>
@@ -58,7 +58,7 @@ ReactDOM.render(
                         <Route path="projects/" element={<Projects />} />
                         <Route path="projectdetails/:id" element={<ProjectDetails />}/>
                         <Route path="contact" element={<Contact />} />
-                        <Route path="404" element={<NotFound />} />
+                        <Route path="*" element={<NotFound />} />
                       </Route>
                     </Route>
                     <Route path="explore" element={<Desktop />} />
