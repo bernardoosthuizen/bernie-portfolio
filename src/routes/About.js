@@ -24,7 +24,7 @@ const About = () => {
                     Hi!
                     </p>
                     <p> 
-                    Nice to meet you! I'm Bernie, a aspiring backend developer curious about all things software. 
+                    Nice to meet you! I'm Bernie, an aspiring backend developer curious about all things software. 
                     </p>
                     <p> 
                     I was born in South Africa, currently living in Hong Kong where I spend my days fiddling, researching & working on portfolio projects. Currently I am working on a bot that intereacts with the Kraken Exchange API that will automate periodic cryptocurrency investments.  
