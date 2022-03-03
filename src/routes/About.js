@@ -27,10 +27,10 @@ const About = () => {
                     Nice to meet you! I'm Bernie, an aspiring backend developer curious about all things software. 
                     </p>
                     <p> 
-                    I was born in South Africa, currently living in Hong Kong where I spend my days fiddling, researching & working on portfolio projects. Currently I am working on a bot that intereacts with the Kraken Exchange API that will automate periodic cryptocurrency investments.  
+                    I was born in South Africa, currently living in Hong Kong where I spend my days fiddling, researching and working on my portfolio projects. Currently, I am working on a bot that interacts with the Kraken Exchange API that will automate periodic cryptocurrency investments.  
                     </p>
                     <p>
-                    After a successful career in aviation I have decided to pivot my career to software engineering. I am working towards completing a Bachelor of Science in Computer Science to jump start this process. As a pilot, I am familiar with working in a high-stress, operationally critical environments, requiring teamwork and technical skills to succeed.  
+                    After a successful career in aviation, I have decided to pivot my career to software engineering. I am working towards completing a Bachelor of Science in Computer Science. As a pilot, I am familiar with working in high-stress, operationally critical environments. My excellent communication and problem-solving skills will transfer well into the world of tech.  
                     </p>
                     <p>
                     I would love to get involved with your project. The bigger the challenge the better! 
