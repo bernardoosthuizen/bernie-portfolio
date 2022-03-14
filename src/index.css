@@ -22,7 +22,7 @@ body {
 
 .icons-container {
     width: fit-content;
-    height: 80vh;
+    height: fit-content;
     margin: 2vw;
     display: flex;
     flex-wrap: wrap;

@@ -49,12 +49,12 @@ function Desktop() {
     return (
         <div className="main-container">
            {/* Icons */}
-            <menu className="icons-container">
+            <nav className="icons-container">
                 {/* Maps over DesktopIcon array and passes each icon's name:value pairs to <Icon> component through props => resultin in a rendered icon */}
                 {desktopIcons.map((desktopIcon) => {             
                     return <Icon  key={desktopIcon.id} {...desktopIcon} /> 
                 })}
-            </menu> 
+            </nav> 
             <Outlet />
         </div>
         
