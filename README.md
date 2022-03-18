@@ -1,7 +1,7 @@
 # Bernie Oosthuizen - Portfolio
 
 ## Description
-This website is a place where I am able to showcase projects I have worked on. I used react.js with flexbox and hosted this web app on Firebase. 
+This website is a place where I am able to showcase projects I have worked on. I used React.js with flexbox and hosted this web app on Firebase. 
 
 ## Project Screen Shot
 ![Screenshot 2022-02-24 at 5 57 16 PM](https://user-images.githubusercontent.com/46342592/155501649-c2e8aa2e-8c4d-4efb-b4f1-ca5814cf6c3b.png)
