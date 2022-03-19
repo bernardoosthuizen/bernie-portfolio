@@ -3,6 +3,7 @@
 # API keys
 /.env
 /project-banner.ai
+/src/firebaseConfig.js
 
 # dependencies
 /node_modules

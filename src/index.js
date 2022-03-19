@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Media from "react-media";
 import reportWebVitals from './reportWebVitals';
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+import { firebaseConfig } from './firebaseConfig';
 
 //CSS import
 import './index.css';
@@ -24,6 +27,9 @@ const About = lazy(() => import('./routes/About'));
 const ProjectDetails = lazy(() => import('./routes/ProjectDetails'));
 const NotFound = lazy (() => import('./routes/NotFound'));
 
+
+const app = initializeApp(firebaseConfig);
+getAnalytics(app);
 
 ReactDOM.render(
         <Media query="(max-width: 1124px)">
