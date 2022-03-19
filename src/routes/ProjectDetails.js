@@ -28,8 +28,8 @@ const ProjectDetails = () => {
             fetchedProject.alt = project.alt;
             fetchedProject.tags = project.tags;
             fetchedProject.description = project.description;
-            fetchedProject.github = project.github;
-            fetchedProject.link = project.link;
+            project.github ? fetchedProject.github = project.github : fetchedProject.github =  null
+            project.link ? fetchedProject.link = project.link : fetchedProject.link = null
         }
     })
    
@@ -59,7 +59,7 @@ const ProjectDetails = () => {
                             <div className="project-detail-description" >
                                 <h5>Project Description</h5>
                                 <p>{fetchedProject.description} </p>
-                                <a href={fetchedProject.github} style={{textDecoration: 'underline', fontSize: '14px'}} target="_blank" rel="noreferrer"> View on Github</a>
+                                <a href={fetchedProject.github ? fetchedProject.github : fetchedProject.link} style={{textDecoration: 'underline', fontSize: '14px'}} target="_blank" rel="noreferrer"> {fetchedProject.github ? "View on Github" : "View project"}</a>
                             </div>       
                         </div>
                     </div>  
