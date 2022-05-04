@@ -19,7 +19,7 @@ const About = () => {
                 <ComponentLoader />
             </div>
             <div className={loaded ? 'about-container visible' : 'hidden'} style={{overflow: 'hidden'}}>
-                <div className="about-paragraph" style={{overflow: 'auto'}}>
+                <div className="about-paragraph">
                     <p>
                     Hi!
                     </p>

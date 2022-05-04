@@ -9,7 +9,7 @@ const Contact = () => {
             <header>
                 <h3>CONTACT ~ </h3>
             </header>
-            <div style={{overflow: 'scroll'}}>
+            <div className="contact-container">
                 <div className="contact-card">
                     <div className="contact-item">
                         <a href="tel:+85265337319"> +852 6533 7319 </a>

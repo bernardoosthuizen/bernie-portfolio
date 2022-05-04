@@ -23,7 +23,7 @@ const Projects = (props) => {
                 <div className={loaded ? 'hideLoader' : 'visible'}>
                     <ComponentLoader />
                 </div>
-                <div className="all-projects-container" style={{overflow: 'scroll'}}>
+                <div className="all-projects-container">
                     {/* Maps over projects found in projects.json */}
                     {projectList.map((project, i) => { 
                         // Creates url with params to pass to PROJECT DETAIL COMPONENT.
