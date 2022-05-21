@@ -31,7 +31,7 @@ const Window = () => {
                                           <img src={Banner} alt="ASCII Bernie Oosthuizen banner" /> 
                                    </div>
                                    <div> 
-                                          <h3>Web  |  Blockchain  |  Cloud</h3>
+                                          <h3>Software Engineer</h3>
                                    </div>
                             </div>
                             {/* Pages are rendered to this <Outlet> */}

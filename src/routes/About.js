@@ -27,10 +27,10 @@ const About = () => {
                     Nice to meet you! I'm Bernie, an aspiring backend developer curious about all things software. 
                     </p>
                     <p> 
-                    I was born in South Africa, currently living in Hong Kong where I spend my days fiddling, researching and working on my portfolio projects. Currently, I am working on creating a tipping platform where users are able to generate buttons or links to intergrate anywhere; enabling users to easily receive tips with cyrpto.  
+                    I was born in South Africa, currently living in Hong Kong where I spend my days fiddling, researching and working on my portfolio projects. Currently, I am working on designing a large scale cloud infrustructure and exploring its implementation with terraform.  
                     </p>
                     <p>
-                    After a successful career in aviation, I have decided to pivot my career to software engineering. I am working towards completing a Bachelor of Science in Computer Science. As a pilot, I am familiar with working in high-stress, operationally critical environments. My excellent communication and problem-solving skills will transfer well into the world of tech.  
+                    After a successful career in aviation, I have decided to pivot my career. I am working towards completing a Bachelor of Science in Computer Science. As a pilot, I am familiar with working in high-stress, operationally critical environments. My excellent communication and problem-solving skills will transfer well into the world of tech.  
                     </p>
                     <p>
                     I would love to get involved with your project. The bigger the challenge the better! 
