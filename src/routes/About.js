@@ -13,7 +13,9 @@ const About = () => {
     const [loaded, setLoaded] = useState(false)
     return (
         <article className="terminal-content">
-            <h3>ABOUT ME ~ </h3>
+            <header>
+                <h3>ABOUT ME ~ </h3>
+            </header>
             {/* only visible once images are loaded. Otherwise shows COMPONENT LOADER COMPONENT*/}
             <div className={loaded ? 'hideLoader' : 'visible'}>
                 <ComponentLoader />

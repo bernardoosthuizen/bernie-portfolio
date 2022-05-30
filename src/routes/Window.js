@@ -19,25 +19,27 @@ const Window = () => {
               handle=".handle"
               cancel=".no-handle"
               >
-                     <header>
+                     
                      <div className="terminal-window">
                             <div className="window-top-bar handle">
                             <Link to="/explore" className="window-exit-button no-handle">
                                           <img src={CloseButton} alt="Close button" /> 
                             </Link> 
                             </div>
-                            <div className="window-top">
-                                   <div>
-                                          <img src={Banner} alt="ASCII Bernie Oosthuizen banner" /> 
-                                   </div>
-                                   <div> 
-                                          <h3>Software Engineer</h3>
-                                   </div>
-                            </div>
+                            <header>
+                                   <div className="window-top">
+                                          <div>
+                                                 <img src={Banner} alt="ASCII Bernie Oosthuizen banner" /> 
+                                          </div>
+                                          <div> 
+                                                 <h3>Software Engineer</h3>
+                                          </div>
+                                   </div>    
+                            </header>
+                            
                             {/* Pages are rendered to this <Outlet> */}
                             <Outlet />                
                      </div> 
-                     </header> 
               </Draggable>
        </div>
        )

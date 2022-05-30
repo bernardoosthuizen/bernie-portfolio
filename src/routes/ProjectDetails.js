@@ -49,18 +49,21 @@ const ProjectDetails = () => {
                                     <h4>{fetchedProject.title}</h4>
                                 </a> 
                             </header>
-                            <div className="tag-wrapper">
-                                { fetchedProject.tags.map((tag, i) => {
-                                    return (
-                                        <p key={i} > { tag } </p>
-                                    );
-                                })}   
-                            </div> 
-                            <div className="project-detail-description" >
-                                <h5>Project Description</h5>
-                                <p>{fetchedProject.description} </p>
-                                <a href={fetchedProject.github ? fetchedProject.github : fetchedProject.link} style={{textDecoration: 'underline', fontSize: '14px'}} target="_blank" rel="noopener noreferrer"> {fetchedProject.github ? "View on Github" : "View project"}</a>
-                            </div>       
+                            <article>
+                                <div className="tag-wrapper">
+                                    { fetchedProject.tags.map((tag, i) => {
+                                        return (
+                                            <p key={i} > { tag } </p>
+                                        );
+                                    })}   
+                                </div> 
+                                <div className="project-detail-description" >
+                                    <h5>Project Description</h5>
+                                    <p>{fetchedProject.description} </p>
+                                    <a href={fetchedProject.github ? fetchedProject.github : fetchedProject.link} style={{textDecoration: 'underline', fontSize: '14px'}} target="_blank" rel="noopener noreferrer"> {fetchedProject.github ? "View on Github" : "View project"}</a>
+                                </div>   
+                            </article>
+                                
                         </div>
                     </div>  
                     <div className="project-column-2">
