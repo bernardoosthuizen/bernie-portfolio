@@ -19,9 +19,9 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="social-card">
-                    <a href="https://github.com/bernardoosthuizen" target="_blank" rel="noreferrer">Github</a>
-                    <a href="https://www.linkedin.com/in/bernard-oosthuizen/" target="_blank" rel="noreferrer">LinkedIn</a>
-                    <a href="https://polywork.bernie.codes/" target="_blank" rel="noreferrer">Polywork</a>
+                    <a href="https://github.com/bernardoosthuizen" target="_blank" rel="noopener noreferrer">Github</a>
+                    <a href="https://www.linkedin.com/in/bernard-oosthuizen/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://polywork.bernie.codes/" target="_blank" rel="noopener noreferrer">Polywork</a>
                 </div>
             </div>
         </address>

@@ -45,7 +45,7 @@ const ProjectDetails = () => {
                     <div className="project-column-1">
                         <div className="project-header" >
                             <header>
-                                <a href={fetchedProject.link} target="_blank" rel="noreferrer">
+                                <a href={fetchedProject.link} target="_blank" rel="noopener noreferrer">
                                     <h4>{fetchedProject.title}</h4>
                                 </a> 
                             </header>
@@ -59,7 +59,7 @@ const ProjectDetails = () => {
                             <div className="project-detail-description" >
                                 <h5>Project Description</h5>
                                 <p>{fetchedProject.description} </p>
-                                <a href={fetchedProject.github ? fetchedProject.github : fetchedProject.link} style={{textDecoration: 'underline', fontSize: '14px'}} target="_blank" rel="noreferrer"> {fetchedProject.github ? "View on Github" : "View project"}</a>
+                                <a href={fetchedProject.github ? fetchedProject.github : fetchedProject.link} style={{textDecoration: 'underline', fontSize: '14px'}} target="_blank" rel="noopener noreferrer"> {fetchedProject.github ? "View on Github" : "View project"}</a>
                             </div>       
                         </div>
                     </div>  
