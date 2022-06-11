@@ -34,7 +34,7 @@ const ProjectDetails = () => {
     })
    
     return (
-        <article className="terminal-content">
+        <div className="terminal-content">
             <h3>PROJECT DETAILS ~ </h3>
             {/* only visible once images are loaded. Otherwise shows COMPONENT LOADER COMPONENT*/}
             <div className={loaded ? 'hideLoader' : 'visible'}>
@@ -44,12 +44,12 @@ const ProjectDetails = () => {
                 <div className="project-detail-container">
                     <div className="project-column-1">
                         <div className="project-header" >
-                            <header>
-                                <a href={fetchedProject.link} target="_blank" rel="noopener noreferrer">
-                                    <h4>{fetchedProject.title}</h4>
-                                </a> 
-                            </header>
                             <article>
+                                <header>
+                                    <a href={fetchedProject.link} target="_blank" rel="noopener noreferrer">
+                                        <h4>{fetchedProject.title}</h4>
+                                    </a> 
+                                </header>
                                 <div className="tag-wrapper">
                                     { fetchedProject.tags.map((tag, i) => {
                                         return (
@@ -73,7 +73,7 @@ const ProjectDetails = () => {
                     </div> 
                 </div>  
             </div>
-        </article>
+        </div>
     );
 }
 

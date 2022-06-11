@@ -4,8 +4,9 @@ import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Media from "react-media";
 import reportWebVitals from './reportWebVitals';
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 import { firebaseConfig } from './firebaseConfig';
+import { getAnalytics } from "firebase/analytics";
+
 
 //CSS import
 import './index.css';
@@ -38,16 +39,18 @@ ReactDOM.render(
             <Router>
               <Suspense fallback={PageLoader} >
               <Routes>
-                <Route path="/" element={<Window />} >
-                  <Route path="/" element={<MobileStart />} />
-                  <Route path="loader" element={<ComponentLoader />} />
-                  <Route path="about" element={<About />} />
-                  <Route path="projects" element={<Projects />} />
-                  <Route path="projectdetails/:id" element={<ProjectDetails />}/>
-                  <Route path="contact" element={<Contact />} />
-                  <Route path="*" element={<NotFound />} />
+                <Route path="/" element={<Desktop />}> 
+                  <Route path="/" element={<Window />} >
+                    <Route path="/" element={<MobileStart />} />
+                    <Route path="loader" element={<ComponentLoader />} />
+                    <Route path="about" element={<About />} />
+                    <Route path="projects" element={<Projects />} />
+                    <Route path="projectdetails/:id" element={<ProjectDetails />}/>
+                    <Route path="contact" element={<Contact />} />
+                    <Route path="*" element={<NotFound />} />
+                  </Route>
                 </Route>
-                <Route path="explore" element={<Desktop />} />
+                <Route path="explore" element={<Desktop />} /> 
               </Routes>
               </ Suspense>
             </Router> 

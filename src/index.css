@@ -621,7 +621,19 @@ li {
 
 }
 @media screen and (max-width: 767px) {
+    .main-container {
+        height: 100dvh;
+    }
+
+    .window-container {
+        position: absolute;
+        width: 95%;
+    }
+
+    
+
     .terminal-window {
+        position: absolute;
         height: 95%;
     }
 
