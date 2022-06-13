@@ -460,7 +460,14 @@ li {
 
 
 @media screen and (max-width: 1124px) {
+    .main-container {
+        height: 100dvh;
+    }
 
+    .window-container {
+        position: absolute;
+        width: 95%;
+    }
 
     .mobile-start {
         display: flex;
@@ -621,16 +628,6 @@ li {
 
 }
 @media screen and (max-width: 767px) {
-    .main-container {
-        height: 100dvh;
-    }
-
-    .window-container {
-        position: absolute;
-        width: 95%;
-    }
-
-    
 
     .terminal-window {
         position: absolute;
