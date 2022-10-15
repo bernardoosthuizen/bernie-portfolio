@@ -16,15 +16,14 @@ const Window = () => {
        return (
        <div className="window-container">
               <Draggable
-              handle=".handle"
-              cancel=".no-handle"
+                     handle=".handle"
+                     cancel=".no-handle"
               >
-                     
                      <div className="terminal-window">
                             <div className="window-top-bar handle">
-                            <Link to="/explore" className="window-exit-button no-handle">
+                                   <Link to="/explore" className="window-exit-button no-handle">
                                           <img src={CloseButton} alt="Close button" /> 
-                            </Link> 
+                                   </Link> 
                             </div>
                             <header>
                                    <div className="window-top">

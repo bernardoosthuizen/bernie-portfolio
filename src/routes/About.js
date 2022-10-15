@@ -26,16 +26,16 @@ const About = () => {
                     Hi!
                     </p>
                     <p> 
-                    Nice to meet you! I'm Bernie, an aspiring backend developer curious about all things software. 
+                    Nice to meet you! I'm Bernie, a Lead Software Engineer based in Hong Kong. 
                     </p>
                     <p> 
-                    I was born in South Africa, currently living in Hong Kong where I spend my days fiddling, researching and working on my portfolio projects. Currently, I am working on designing a large scale cloud infrustructure and exploring its implementation with terraform.  
+                    I work with an incredible team of creatives and developers. We create extaordinary digital experiences. My job is to enable my teammates to serve the customer better through implementing systems, tools and automations. My role also includes project and organisation wide strategic decision making and planning. I am fortunate to be able to practice my love of coding and hone my people skills on a daily basis. 
                     </p>
                     <p>
-                    After a successful career in aviation, I have decided to pivot my career. I am working towards completing a Bachelor of Science in Computer Science. As a pilot, I am familiar with working in high-stress, operationally critical environments. My excellent communication and problem-solving skills will transfer well into the world of tech.  
+                    I have recently pivotted from a successful career in aviation, where I gained valuable transferable skills in leadership, communication, teamwork and problem-solving. I have a strong track record of fast learning and adapting in high-stress, operationally critical environments.
                     </p>
                     <p>
-                    I would love to get involved with your project. The bigger the challenge the better! 
+                    I would love to hear from you.  
                     </p>
                     <p>
                         <Link to="/contact" className="menu-item" > &gt; Let's chat. </Link>
