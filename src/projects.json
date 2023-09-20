@@ -1,23 +1,23 @@
 [
     {
         "id":3,
-        "title":"Email Verification API",
-        "tags":["Node.js","Express.js","REST API"],
-        "img": "https://firebasestorage.googleapis.com/v0/b/myportfolio-1843e.appspot.com/o/project-banner.png?alt=media&token=36535b2e-e5d0-432c-8e42-27b700fa6e12",
-        "alt": "Email verification API banner",
-        "description": "This REST API allows users to verify email addresses. The intent is to have the API check that an email address is correctly formatted and is deliverable by sending a verification email to the address and requiring the user to click a link to finish the verification process. I used Node.js, Express.js and MongoDB for this project.",
-        "github": "https://github.com/bernardoosthuizen/email-verify-api/blob/master/README.md"
+        "title":"Fly Privi - Coming Soon",
+        "tags":["SvelteKit","Google Cloud","Python"],
+        "img": "https://firebasestorage.googleapis.com/v0/b/myportfolio-1843e.appspot.com/o/privi-banner.png?alt=media&token=b93d8d53-23ff-4b52-acc2-261567360651",
+        "alt": "Fly Privi banner",
+        "description": "Fly Privi is the world's first empty leg flight aggregator. The platform finds empty leg flights from reputable operators and presents them in a sleek interface. Create a the biggest database of empty leg flights in the world. The project consnists of a SvelteKit frontend supported by a variety of node.js and python Google Cloud Functions. The project is self sustained and automatically collects, cleans and archives flight data. I am super proud of what is to date my biggest undertaking. Please check it out! I would love to hear what you think.",
+        "link": ""
     },
     {
         "id":2,
-        "title":"Crypto Auto Invest",
-        "tags":["Node.js","Google Cloud","API"],
-        "img": "https://firebasestorage.googleapis.com/v0/b/myportfolio-1843e.appspot.com/o/kraken-project-banner.png?alt=media&token=2218992c-8ee2-4872-915c-2885f1d63579",
-        "alt": "Kraken API auto invest banner",
-        "description": "This is a simple bot that helps you automatically and periodically buy selected cryptocurrencies on Kraken crypto exchange. I hope to gain confidence in using APIs and their documentation with Node.js.",
-        "github": "https://github.com/bernardoosthuizen/kraken-auto-invest"
+        "title":"Craft Finance",
+        "tags":["Low Code","Next.js","Node.js"],
+        "img": "https://firebasestorage.googleapis.com/v0/b/myportfolio-1843e.appspot.com/o/craft-banner.png?alt=media&token=edff2409-7200-4977-ad9e-6ffd56c6311d",
+        "alt": "Craft Finance banner",
+        "description": "With Craft you can quote, invoice and get paid quickly. On top of that, you can be protected against lost income due to accidents that stop you from working. For this project I was able to dip my toes into management and leadership roles. I fullfilled a combination of the product and engineering management roles, coordinating activities between two engineering teams, designers and business stakeholders.",
+        "link": "https://www.craft.financial/"
     },
-     {
+    {
         "id":1,
         "title":"My Portfolio",
         "tags":["React.js","Flexbox","Firebase"],

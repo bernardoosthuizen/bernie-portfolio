@@ -206,7 +206,7 @@ a {
 
 .window-top h3 {
   color: white;
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: 0;
 }
 
@@ -308,6 +308,9 @@ li {
 }
 
 .social-card {
+  display: flex;
+  flex-direction: column;
+  height: 40%;
   font-size: 20px;
   padding-left: 10vw;
   padding-right: 10vw;
@@ -426,6 +429,8 @@ li {
   margin-bottom: 2vh;
   display: flex;
   align-items: center;
+  /* justify-content: center; */
+  flex-wrap: wrap;
 }
 
 .tag-wrapper h5 {
@@ -434,6 +439,8 @@ li {
   padding: 2%;
   border-style: inset;
   border-width: thin;
+  flex-wrap: nowrap;
+  min-width: fit-content;
 }
 
 .project-detail {

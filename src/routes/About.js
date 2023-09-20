@@ -26,17 +26,11 @@ const About = () => {
         <div className='about-paragraph'>
           <p>Hi!</p>
           <p>
-            Nice to meet you! I'm Bernie, a Software Engineering Manager based
-            in Hong Kong.
+            Nice to meet you! I'm Bernie, a Software Engineer based
+            in Hong Kong exploring all things data engineering and cloud.
           </p>
           <p>
-            I facilitate an incredible team of creatives and developers. We
-            create extaordinary digital experiences. My job is to enable my
-            teammates to serve the customer better through implementing systems,
-            tools and automations. My role also includes project and
-            organisation wide strategic decision making and planning. I am
-            fortunate to be able to practice my love of coding and hone my
-            people skills on a daily basis.
+            I am currently working on <Link to='/projectdetails/3' className='menu-item'>Fly Privi</Link>, the world's first empty leg flight aggregator. This project has really challenged me as an engineer and exposed me to new frameworks, architectures and gotchas. A whole lot of gotchas! This project has sparked a fascinnation for data pipelines and cloud architeecture, so much so that I plan on persuing these fields after completing my Bachelor of Science in Computer Science.
           </p>
           <p>
             I have recently pivotted from a successful career in aviation, where
@@ -45,11 +39,11 @@ const About = () => {
             learning and adapting in high-stress, operationally critical
             environments.
           </p>
-          <p>I would love to hear from you.</p>
+          <p>I would love to hear from you. </p>
           <p>
             <Link to='/contact' className='menu-item'>
               {" "}
-              &gt; Let's chat.{" "}
+              &gt; Let's connect.{" "}
             </Link>
           </p>
         </div>
