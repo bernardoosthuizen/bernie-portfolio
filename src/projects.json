@@ -5,7 +5,7 @@
         "tags":["SvelteKit","Google Cloud","Python"],
         "img": "https://firebasestorage.googleapis.com/v0/b/myportfolio-1843e.appspot.com/o/privi-banner.png?alt=media&token=b93d8d53-23ff-4b52-acc2-261567360651",
         "alt": "Fly Privi banner",
-        "description": "Fly Privi is the world's first empty leg flight aggregator. The platform finds empty leg flights from reputable operators and presents them in a sleek interface. Create a the biggest database of empty leg flights in the world. The project consnists of a SvelteKit frontend supported by a variety of node.js and python Google Cloud Functions. The project is self sustained and automatically collects, cleans and archives flight data. I am super proud of what is to date my biggest undertaking. Please check it out! I would love to hear what you think.",
+        "description": "Fly Privi is the world's first empty leg flight aggregator. The platform finds empty leg flights from reputable operators and aggrigates them in a sleek interface. Creating the biggest database of empty leg flights in the world. The project consists of a SvelteKit frontend supported by a variety of Node.js and Python Google Cloud Functions. The project is self sustained and automatically collects, cleans and archives flight data. I am super proud of what is to date my biggest undertaking. Please check it out! I would love to hear what you think.",
         "link": ""
     },
     {

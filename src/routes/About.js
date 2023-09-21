@@ -30,7 +30,7 @@ const About = () => {
             in Hong Kong exploring all things data engineering and cloud.
           </p>
           <p>
-            I am currently working on <Link to='/projectdetails/3' className='menu-item'>Fly Privi</Link>, the world's first empty leg flight aggregator. This project has really challenged me as an engineer and exposed me to new frameworks, architectures and gotchas. A whole lot of gotchas! This project has sparked a fascinnation for data pipelines and cloud architeecture, so much so that I plan on persuing these fields after completing my Bachelor of Science in Computer Science.
+            I am currently working on <Link to='/projectdetails/3' className='menu-item'>Fly Privi</Link>, the world's first empty leg flight aggregator. This project has really challenged me as an engineer and exposed me to new frameworks, architectures and gotchas. A whole lot of gotchas! This project has sparked a fascination for data pipelines and cloud architeecture, so much so that I plan on persuing these fields after completing my Bachelor of Science in Computer Science.
           </p>
           <p>
             I have recently pivotted from a successful career in aviation, where
