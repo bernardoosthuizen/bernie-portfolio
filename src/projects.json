@@ -1,32 +1,30 @@
 [
-    {
-        "id":3,
-        "title":"Fly Privi - Coming Soon",
-        "tags":["SvelteKit","Google Cloud","Python"],
-        "img": "https://firebasestorage.googleapis.com/v0/b/myportfolio-1843e.appspot.com/o/privi-banner.png?alt=media&token=b93d8d53-23ff-4b52-acc2-261567360651",
-        "alt": "Fly Privi banner",
-        "description": "Fly Privi is the world's first empty leg flight aggregator. The platform finds empty leg flights from reputable operators and aggrigates them in a sleek interface. Creating the biggest database of empty leg flights in the world. The project consists of a SvelteKit frontend supported by a variety of Node.js and Python Google Cloud Functions. The project is self sustained and automatically collects, cleans and archives flight data. I am super proud of what is to date my biggest undertaking. Please check it out! I would love to hear what you think.",
-        "link": ""
-    },
-    {
-        "id":2,
-        "title":"Craft Finance",
-        "tags":["Low Code","Next.js","Node.js"],
-        "img": "https://firebasestorage.googleapis.com/v0/b/myportfolio-1843e.appspot.com/o/craft-banner.png?alt=media&token=edff2409-7200-4977-ad9e-6ffd56c6311d",
-        "alt": "Craft Finance banner",
-        "description": "With Craft you can quote, invoice and get paid quickly. On top of that, you can be protected against lost income due to accidents that stop you from working. For this project I was able to dip my toes into management and leadership roles. I fullfilled a combination of the product and engineering management roles, coordinating activities between two engineering teams, designers and business stakeholders.",
-        "link": "https://www.craft.financial/"
-    },
-    {
-        "id":1,
-        "title":"My Portfolio",
-        "tags":["React.js","Flexbox","Firebase"],
-        "img": "https://firebasestorage.googleapis.com/v0/b/myportfolio-1843e.appspot.com/o/project-portfolio-banner.png?alt=media&token=41a6112e-69a3-4da4-975f-ad5d30e74763",
-        "alt": "Bernie Oosthuizen boftware blockchain engineer banner",
-        "description": "A website where I showcase my noteable projects. I used React.js & Flexbox on the front end. This was a great way to solidify my React.js knowledge. Not being a big fan of CSS, this project allowed me to explore and get to grips with Flexbox. I really enjoyed refining page load animations to enhance the user experience.",
-        "github": "https://github.com/bernardoosthuizen/bernie-portfolio",
-        "link": "https://bernie.codes"
-
-    }
-    
+  {
+    "id": 3,
+    "title": "Fly Privi",
+    "tags": ["SvelteKit", "Google Cloud", "Python"],
+    "img": "https://firebasestorage.googleapis.com/v0/b/myportfolio-1843e.appspot.com/o/privi-banner.png?alt=media&token=b93d8d53-23ff-4b52-acc2-261567360651",
+    "alt": "Fly Privi banner",
+    "description": "Fly Privi is the world's first empty leg flight aggregator. The platform finds empty leg flights from reputable operators and aggrigates them in a sleek interface. Creating the biggest database of empty leg flights in the world. The project consists of a SvelteKit frontend supported by a variety of Node.js and Python Google Cloud Functions. The project is self sustained and automatically collects, cleans and archives flight data. I am super proud of what is to date my biggest undertaking. Please check it out! I would love to hear what you think.",
+    "link": "https://flyprivi.com"
+  },
+  {
+    "id": 2,
+    "title": "Craft Finance",
+    "tags": ["Low Code", "Next.js", "Node.js"],
+    "img": "https://firebasestorage.googleapis.com/v0/b/myportfolio-1843e.appspot.com/o/craft-banner.png?alt=media&token=edff2409-7200-4977-ad9e-6ffd56c6311d",
+    "alt": "Craft Finance banner",
+    "description": "With Craft you can quote, invoice and get paid quickly. On top of that, you can be protected against lost income due to accidents that stop you from working. For this project I was able to dip my toes into management and leadership roles. I fullfilled a combination of the product and engineering management roles, coordinating activities between two engineering teams, designers and business stakeholders.",
+    "link": "https://www.craft.financial/"
+  },
+  {
+    "id": 1,
+    "title": "My Portfolio",
+    "tags": ["React.js", "Flexbox", "Firebase"],
+    "img": "https://firebasestorage.googleapis.com/v0/b/myportfolio-1843e.appspot.com/o/project-portfolio-banner.png?alt=media&token=41a6112e-69a3-4da4-975f-ad5d30e74763",
+    "alt": "Bernie Oosthuizen boftware blockchain engineer banner",
+    "description": "A website where I showcase my noteable projects. I used React.js & Flexbox on the front end. This was a great way to solidify my React.js knowledge. Not being a big fan of CSS, this project allowed me to explore and get to grips with Flexbox. I really enjoyed refining page load animations to enhance the user experience.",
+    "github": "https://github.com/bernardoosthuizen/bernie-portfolio",
+    "link": "https://bernie.codes"
+  }
 ]

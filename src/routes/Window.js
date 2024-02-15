@@ -28,9 +28,6 @@ const Window = () => {
               <div>
                 <img src={Banner} alt='ASCII Bernie Oosthuizen banner' />
               </div>
-              <div>
-                <h3>Software Engineer</h3>
-              </div>
             </div>
           </header>
 

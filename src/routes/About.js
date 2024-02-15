@@ -26,18 +26,22 @@ const About = () => {
         <div className='about-paragraph'>
           <p>Hi!</p>
           <p>
-            Nice to meet you! I'm Bernie, a Software Engineer based
-            in Hong Kong exploring all things data engineering and cloud.
+            Nice to meet you! I'm Bernie, a Pilot and Software Engineer based in
+            Hong Kong. When I'm not flying, I explore the intersection of
+            aviation and technology to help organisations serve their customers
+            better by building elegent data driven, cloud based solutions.
           </p>
           <p>
-            I am currently working on <Link to='/projectdetails/3' className='menu-item'>Fly Privi</Link>, the world's first empty leg flight aggregator. This project has really challenged me as an engineer and exposed me to new frameworks, architectures and gotchas. A whole lot of gotchas! This project has sparked a fascination for data pipelines and cloud architeecture, so much so that I plan on persuing these fields after completing my Bachelor of Science in Computer Science.
-          </p>
-          <p>
-            I have recently pivotted from a successful career in aviation, where
-            I gained valuable transferable skills in leadership, communication,
-            teamwork and problem-solving. I have a strong track record of fast
-            learning and adapting in high-stress, operationally critical
-            environments.
+            I am currently working on{" "}
+            <Link to='/projectdetails/3' className='menu-item'>
+              Fly Privi
+            </Link>
+            , the world's first empty leg flight aggregator. This project has
+            really challenged me as an engineer and exposed me to new
+            frameworks, architectures and gotchas. A whole lot of gotchas! This
+            project has sparked a fascination for data pipelines and cloud
+            architeecture, so much so that I plan on persuing these fields after
+            completing my Bachelor of Science in Computer Science.
           </p>
           <p>I would love to hear from you. </p>
           <p>
